@@ -3,8 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* iPhone 11 Pro Max - 1 */
 .mainContainer {
-  height: 500px;
-  width: 70%;
-  background-color: mediumaquamarine;
+
+};
+
+.navbar {
+
 }
