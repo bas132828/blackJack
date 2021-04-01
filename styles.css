@@ -4,65 +4,24 @@
   box-sizing: border-box;
 }
 
-
 h1 {
   color: #426696;
   font-weight: 600;
   font-size: 3rem;
   opacity: 0.8;
-};
+}
 
 p {
   color: #658ec6;
   font-weight: 500;
   opacity: 0.8;
 }
-/*
-h3 {
-  color: #426696;
-  font-weight: 600;
-  opacity: 0.8;
-} */
-
-main {
-  font-family: "Poppins", sans-serif;
-  min-height: 100vh;
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.top1 {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  background-color: tan;
 }
-.navbar {
-  height: auto;
-  width: 80%;
-  line-height: 1;
-  );
-}
-
-.containerBody {
-  background: white;
-  height: 80vh;
-  width: 80%;
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
-  border-radius: 2rem;
-  z-index: 2;
-  backdrop-filter: blur(2rem);
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr, 1fr;
-
-}
-.blankMessage {
-  color: red;
-}
-.gridDiv {
-  display: inline-block;
-  background-color: #8ca0ff;
-  width: 50px;
-  width: 90%;
-  height: 50px;
+.image {
+  height: 300px;
 }
